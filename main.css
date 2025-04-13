@@ -1,0 +1,107 @@
+h1{
+    text-shadow: blue;
+    color: aquamarine;
+    background-color: brown;
+    text-decoration: double;
+}
+h3{
+   text-shadow: blue;
+   color: aquamarine;
+   background-color: brown;
+   text-decoration: double;
+}
+
+/* .hee {
+    color: aquamarine;
+} */
+ body {
+    background-color: black;
+ }
+ .dp img { 
+    
+    height: 200px;
+    /* width: ; */
+    border: 2px black;
+    border: 2px white solid;
+    border-radius: 50%;
+ }
+ /* #pp {
+    display: inline-block; 
+ } */
+ .projects {
+    /* display: ; */
+    height: 300px;
+    width: 100%;
+    padding: 50px;
+    background-color: aqua;
+    border: 2px white solid;
+    overflow: hidden;
+            position: relative;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+
+ }
+
+ .projects div img {
+    /* padding:50px ; */
+    width: 200px;
+    height: auto;
+    background-color: blueviolet;
+    border: 2px skyblue solid;
+ }
+ 
+ .projects div {
+    border: 2px pink solid;
+    height: 200px;
+    
+    position: relative;
+    display: inline-block;
+    transform: translateX(50%);
+            animation: bouncing-text 10s ease-in-out infinite alternate;
+ }
+ @keyframes bouncing-text {
+    0% {
+        transform: translateX(50%);
+    }
+
+    100% {
+        transform: translateX(-50%);
+    }
+}
+  
+.projects div :hover{
+    /* transition: ; */
+    transform: scale(2);
+}
+
+.rtry {
+   height: 300px;
+   width: 300px;
+   margin-left: auto;
+   margin-right: auto;
+   width: 40%;
+   border: 2px solid pink;
+
+}
+
+
+.fa {
+   /* background-color: rgb(73, 60, 60); */
+   padding: 20px;
+   color: aliceblue;
+   font-size: 1000px;
+   width: 100px;
+   height: auto;
+   text-align: center;
+   text-decoration: none;
+   border-radius: 50%;
+ }
+
+ .fa-instagram {
+   background: #051018;
+   color: white;
+ }
+ .dp{
+   position: relative;
+   display: flex;
+ }
+
